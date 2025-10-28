@@ -1,0 +1,8 @@
+[submodule "custom-addons"]
+	path = custom-addons
+	url = https://github.com/CompactCodeEU/odoo-thribe.git
+	branch = release-18.1.0
+[submodule "extra-addons"]
+	path = extra-addons
+	url = https://github.com/CompactCodeEU/odoo-thribe-extra-addons.git
+	branch = main
