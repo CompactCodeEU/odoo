@@ -6,3 +6,7 @@
 	path = extra-addons
 	url = https://github.com/CompactCodeEU/odoo-thribe-extra-addons.git
 	branch = main
+[submodule "enterprise"]
+	path = enterprise
+	url = https://github.com/CompactCodeEU/enterprise-thribe.git
+	branch = 18.0
