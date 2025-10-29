@@ -1,12 +1,12 @@
 [submodule "custom-addons"]
 	path = custom-addons
-	url = https://${GITHUB_USERNAME}:${GITHUB_TOKEN}@github.com/CompactCodeEU/odoo-thribe.git
+	url = git@github.com:CompactCodeEU/odoo-thribe.git
 	branch = release-18.1.0
 [submodule "extra-addons"]
 	path = extra-addons
-	url = https://${GITHUB_USERNAME}:${GITHUB_TOKEN}@github.com/CompactCodeEU/odoo-thribe-extra-addons.git
+	url = git@github.com:CompactCodeEU/odoo-thribe-extra-addons.git
 	branch = main
 [submodule "enterprise"]
 	path = enterprise
-	url = https://${GITHUB_USERNAME}:${GITHUB_TOKEN}@github.com/CompactCodeEU/enterprise-thribe.git
+	url = git@github.com:CompactCodeEU/enterprise-thribe.git
 	branch = 18.0
