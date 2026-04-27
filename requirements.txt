@@ -71,6 +71,7 @@ python-ldap==3.4.4 ; sys_platform != 'win32' and python_version >= '3.12'  # (No
 python-stdnum==1.17 ; python_version < '3.11'  # (jammy)
 python-stdnum==1.19 ; python_version >= '3.11'
 pytz  # no version pinning to avoid OS perturbations
+pyyaml
 pyusb==1.2.1
 qrcode==7.3.1 ; python_version < '3.11'  # (jammy)
 qrcode==7.4.2 ; python_version >= '3.11'
