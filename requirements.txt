@@ -4,6 +4,7 @@ asn1crypto==1.4.0 ; python_version < '3.11'
 asn1crypto==1.5.1 ; python_version >= '3.11'
 Babel==2.9.1 ; python_version < '3.11'  # min version = 2.6.0 (Focal with security backports)
 Babel==2.10.3 ; python_version >= '3.11'
+cachetools
 cbor2==5.4.2 ; python_version < '3.12'
 cbor2==5.6.2 ; python_version >= '3.12'
 chardet==4.0.0 ; python_version < '3.11'  # (Jammy)
@@ -16,6 +17,7 @@ docutils==0.17 ; python_version < '3.11'  # (Jammy)
 docutils==0.20.1 ; python_version >= '3.11'
 freezegun==1.1.0 ; python_version < '3.11'  # (Jammy)
 freezegun==1.2.1 ; python_version >= '3.11'
+fsspec>=2024.5.0
 geoip2==2.9.0
 gevent==21.8.0 ; sys_platform != 'win32' and python_version == '3.10'  # (Jammy)
 gevent==22.10.2; sys_platform != 'win32' and python_version > '3.10' and python_version < '3.12'
@@ -43,6 +45,7 @@ ofxparse==0.21
 openpyxl==3.0.9 ; python_version < '3.12'
 openpyxl==3.1.2 ; python_version >= '3.12'
 openupgradelib
+packaging
 passlib==1.7.4 # min version = 1.7.2 (Focal with security backports)
 phonenumbers
 Pillow==9.0.1 ; python_version <= '3.10'
