@@ -40,7 +40,8 @@ MarkupSafe==2.0.1 ; python_version <= '3.10'
 MarkupSafe==2.1.2 ; python_version > '3.10' and python_version < '3.12'
 MarkupSafe==2.1.5 ; python_version >= '3.12'  # (Noble) Mostly to have a wheel package
 num2words==0.5.10 ; python_version < '3.12'  # (Jammy / Bookworm)
-num2words==0.5.13 ; python_version >= '3.12' 
+num2words==0.5.13 ; python_version >= '3.12'
+odoo-test-helper
 ofxparse==0.21
 openpyxl==3.0.9 ; python_version < '3.12'
 openpyxl==3.1.2 ; python_version >= '3.12'
@@ -59,6 +60,7 @@ psutil==5.9.8 ; python_version >= '3.12' # (Noble) Mostly to have a wheel packag
 psycopg2==2.9.2 ; python_version == '3.10' # (Jammy)
 psycopg2==2.9.5 ; python_version == '3.11'
 psycopg2==2.9.9 ; python_version >= '3.12' # (Noble) Mostly to have a wheel package
+pydifact # EDIFACT serializer
 pyopenssl==21.0.0 ; python_version < '3.12'
 pyopenssl==24.1.0 ; python_version >= '3.12' # (Noble) min 23.2.0, pinned for compatibility with cryptography==42.0.8 and security patches
 PyPDF2==1.26.0 ; python_version <= '3.10'
