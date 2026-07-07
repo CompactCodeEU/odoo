@@ -1,6 +1,6 @@
 [submodule "custom-addons"]
 	path = custom-addons
-	url = git@github-custom-addons:CompactCodeEU/odoo-thribe.git
+	url = git@github-custom-addons:CompactCodeEU/odoo-thribe-custom-addons.git
 	branch = main
 [submodule "extra-addons"]
 	path = extra-addons
